@@ -16,5 +16,7 @@ Utility functionalities for Passy Core, the core library for Passy SaaS.
   s.vendored_frameworks = 'PassyCoreUtils.xcframework'
   s.swift_versions = '5.0'
   s.frameworks = 'UIKit', 'CoreNFC', "CoreBluetooth"
+
+  s.dependency 'PassyCore', '~> 0.0.1'
   
 end
